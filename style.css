@@ -43,7 +43,7 @@ header > nav > ul > li > a {
 
 h1.pip {
 	padding: 160px 10px 160px;
-	background-image: url('image1.jpg');
+	background-image: url('pic/image1.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	text-align: center;
@@ -72,7 +72,7 @@ h1.pip {
 .all {
 	width: auto;
 	height: 483px;
-	background-image: url('image2.png');
+	background-image: url('pic/image2.png');
 	background-size: cover;
 }
 
