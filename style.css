@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	background-color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 84px;
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	align-items: center;
+	background-color: #007765;
+}
+
+header > img {
+	width: 184px;
+	height: 45px;
+	padding-left: 55px;
+}
+
+header > nav > ul {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	justify-content: end;
+	padding-right: 55px;
+}
+
+header > nav > ul > li > a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+h1.pip {
+	padding: 160px 10px 160px;
+	background-image: url('image1.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+	color: white;
+	font-size: 72px;
+}
+
+.thep {
+	width: auto;
+	height: 719px;
+}
+
+.thep > h1 {
+	text-align: center;
+	font-size: 64px;
+	color: #007765;
+	padding: 48px 55px 16px;
+}
+
+.thep-p {
+	text-align: left;
+	font-size: 32px;
+	padding: 16px 55px 92px;
+}
+
+.all {
+	width: auto;
+	height: 483px;
+	background-image: url('image2.png');
+	background-size: cover;
+}
+
+.all > h2 {
+	color: white;
+	font-size: 48px;
+	text-align: center;
+	font-style: italic;
+	padding: 127px 163px;
+}
+
+.intro {
+	width: auto;
+	height: 700px;
+	background-color: white;
+}
+
+.intro > h2 {
+	text-align: center;
+	color: #007765;
+	font-size: 64px;
+	padding: 48px 55px 16px;
+}
+
+.intro-p1 {
+	font-size: 32px;
+	display: grid;
+	grid-template-columns: 1fr 9fr;
+	align-items: center;
+	justify-content: center;
+}
+
+.intro-p1 > img {
+	padding: 16px 38px 35px 55px;	
+}
+
+.intro-p1 > p {
+	padding-left: 10px;
+
+}
+
+.intro > p {
+	font-size: 32px;
+	padding: 40px 55px 92px;
+}
+
+.team {
+	width: auto;
+	height: 700px;
+}
+
+h2 {
+	font-size: 64px;
+	text-align: center;
+	color: #007765;
+	padding: 48px 55px 56px;
+}
+
+.team {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: center;
+	text-align: center;
+	grid-auto-rows: 300px;
+}
+
+.team h4 {
+	font-size: 24px;
+	color: #007765;
+}
+
+.team p {
+	font-style: italic;
+}
+
+footer {
+	width: auto;
+	height: 176px;
+	background-color: #333333;
+}
+
+footer p {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 48px 270px 64px;
+	font-style: normal;
+}
